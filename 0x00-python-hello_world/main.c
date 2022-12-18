@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 
-int main(in t argc, char **argv, char **env)
+int main(int argc, char **argv, char **env)
 {
     (void) argc;
     (void) argv;
