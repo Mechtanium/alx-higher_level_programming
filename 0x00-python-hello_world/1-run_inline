@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-echo "$PYCODE" >> ./run.sh && chmod u+x ./run.sh && python3 ./run.sh
+python3 -c "$PYCODE"
