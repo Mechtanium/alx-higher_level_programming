@@ -8,6 +8,6 @@ int main(int argc, char **argv, char **env)
     (void) argv;
     (void) env;
 
-    printf("%d) Hello World\n", argc);
-    return (EXIT_SUCCESS);
+	printf("%d) Hello World\n", argc);
+	return (EXIT_SUCCESS);
 }
