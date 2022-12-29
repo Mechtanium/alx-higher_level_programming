@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for i in range(100):
-    print("{}".format(i).zfill(2), end="")
-    if i != 99:
-        print(", ", end="")
+for i in range(99):
+    print("{}".format(i).zfill(2), ", ", end="", sep="")
+
+print("99", end="\n")
