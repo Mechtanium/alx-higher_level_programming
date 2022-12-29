@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-for i in range(99):
-    print("{} = {}".format(i, hex(i)))
+for i in 'abcdefghijklmnopqrstuvwxyz':
+    if i not in "qe":
+        print("{}".format(i), end="")
